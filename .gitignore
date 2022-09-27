@@ -1,0 +1,7 @@
+# Project exclude paths
+/common/target/
+/gateway/target/
+/service/service-help/target/
+/service/service-hosting/target/
+/service/service-notification/target/
+/service/service-user/target/

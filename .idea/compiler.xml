@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-hosting" />
+        <module name="service-help" />
+        <module name="service-notification" />
+        <module name="common" />
+        <module name="service-user" />
+        <module name="gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="serrvice-hosting" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="serrvice-hosting" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="service-help" options="-parameters" />
+      <module name="service-hosting" options="-parameters" />
+      <module name="service-notification" options="-parameters" />
+      <module name="service-user" options="-parameters" />
+      <module name="smart-community" options="-parameters" />
+    </option>
+  </component>
+</project>
